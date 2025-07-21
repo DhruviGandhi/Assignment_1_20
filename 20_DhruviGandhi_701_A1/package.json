@@ -1,0 +1,23 @@
+{
+  "name": "assignment_1_stud",
+  "version": "1.0.0",
+  "description": "A simple student package to return his details",
+  "main": "index.js",
+  "files": ["Q11/index.js"],
+  "scripts": {
+    "test": "echo \"Test file\" && exit 1",
+    "server":"node Q8/server",
+    "goodbye":"node Q8/goodbye",
+    "hello":"node Q8/hello",
+    "status":"node Q8/status"
+  },
+  "keywords": [
+    "student","name","sem"
+  ],
+  "author": "Dhruvi Gandhi dhruvigandhi.mscit22@vnsgu.ac.in",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
